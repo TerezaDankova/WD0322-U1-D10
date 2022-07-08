@@ -15,16 +15,16 @@ Create a variable called test and assign a string value to it.
 */
 console.log("\n-----------EXERCISE A-----------\n");
 
-let text = "This is a string."
+let test = "This is a string."
 
-console.log(text)
+console.log(test)
 
 /* EXERCISE B
 Create a variable called sum and assign to it the result of the sum between the numbers 10 and 20.
 */
 console.log("\n-----------EXERCISE B-----------\n");
 
-const sum = 10 + 20
+let sum = 10 + 20
 
 console.log(sum)
 
