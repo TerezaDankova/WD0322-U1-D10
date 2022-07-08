@@ -192,7 +192,7 @@ values: [3, 3, 4]
 
 console.log("\n-----------EXERCISE 8-----------\n");
 
-function rollTheDices(u){
+/*function rollTheDices(u){
   let arrMy = []
    for(let i = 0; i < u; i++) {
       arrMy.push(dice())
@@ -203,6 +203,21 @@ function rollTheDices(u){
       values: arrMy
   }
   return result
+}
+
+console.log(rollTheDices(8));
+*/
+
+function rollTheDices(number){
+  let results = {
+    sum: 0,
+    values: []
+  }
+  for (let i = 0; i < number; i++){
+    let roll = dice();
+    results.sum += roll;
+    results.values.push(roll)
+  } return results
 }
 
 console.log(rollTheDices(8));
